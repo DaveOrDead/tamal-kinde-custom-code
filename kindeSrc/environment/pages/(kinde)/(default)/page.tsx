@@ -57,6 +57,7 @@ function Layout({ request }) {
             color: #fff;
             text-align: center;
             padding: 1rem;
+            font-family: "Open Sans", sans-serif;
           }
 
           .main {
@@ -75,6 +76,7 @@ function Layout({ request }) {
             background: #fff;
             border-radius: 0.5rem;
             padding: 3rem;
+            font-family: "Open Sans", sans-serif;
           }
 
           @media (max-width: 375px) {
