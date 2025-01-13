@@ -48,7 +48,7 @@ function Layout({ request }) {
           body {
             background: bisque;
             color: #333;
-            font-family: "Open Sans", sans-serif;
+            font-family: Arial, sans-serif;
           }
 
           .header,
@@ -57,7 +57,7 @@ function Layout({ request }) {
             color: #fff;
             text-align: center;
             padding: 1rem;
-            font-family: "Open Sans", sans-serif;
+            font-family: Arial, sans-serif;
           }
 
           .main {
@@ -76,7 +76,7 @@ function Layout({ request }) {
             background: #fff;
             border-radius: 0.5rem;
             padding: 3rem;
-            font-family: "Open Sans", sans-serif;
+            font-family: Arial, sans-serif;
           }
 
           @media (max-width: 375px) {
