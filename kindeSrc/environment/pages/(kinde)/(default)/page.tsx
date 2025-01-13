@@ -1,6 +1,6 @@
 "use server";
 
-import "./styles.css";
+import "./style.css";
 
 import {
   getKindeRequiredCSS,
