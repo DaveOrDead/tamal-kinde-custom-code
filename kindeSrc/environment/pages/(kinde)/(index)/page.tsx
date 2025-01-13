@@ -10,7 +10,7 @@ import {
 import React from "react";
 import { renderToString } from "react-dom/server.browser";
 
-export default async function Page({ context, request }) {
+function Layout({ context, request }) {
   return (
     <html>
       <head>
@@ -24,4 +24,9 @@ export default async function Page({ context, request }) {
       </body>
     </html>
   );
+}
+
+export default async function Page(event) {
+  const page = await Layout({ ...event });
+  return renderToString(page);
 }
