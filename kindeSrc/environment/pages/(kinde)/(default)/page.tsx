@@ -1,5 +1,7 @@
 "use server";
 
+import "./styles.css";
+
 import {
   getKindeRequiredCSS,
   getKindeRequiredJS,
