@@ -48,7 +48,7 @@ function Layout({ request }) {
       <body>
         <div id="root" data-roast-root="/admin">
           <main>
-            <h1>HeadSpace App</h1>
+            <h1>HeadSpace App New</h1>
             {getKindeWidget()}
           </main>
         </div>
