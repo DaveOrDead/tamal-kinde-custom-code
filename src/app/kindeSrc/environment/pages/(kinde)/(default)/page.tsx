@@ -24,7 +24,7 @@ function Layout({ request }) {
       <body>
         <div id="root" data-roast-root="/admin">
           <main>
-            <h1>Custom Login</h1>
+            <h1>🐸🐸 Custom Login 🐸🐸</h1>
             {getKindeWidget()}
           </main>
         </div>
