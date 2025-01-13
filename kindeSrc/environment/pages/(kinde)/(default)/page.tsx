@@ -143,6 +143,10 @@ function Layout({ request }) {
             border-radius: 25px;
           }
 
+          .kinde-fallback-action {
+            margin-top: 1rem;
+          }
+
           .form__footer {
             font-size: 0.7rem;
             text-align: center;
