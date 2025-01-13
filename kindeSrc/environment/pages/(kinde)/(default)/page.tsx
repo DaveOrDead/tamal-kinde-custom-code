@@ -20,31 +20,6 @@ function Layout({ request }) {
         <meta name="csrf-token" content={getKindeCSRF()} />
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}
-
-        <style>
-        body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-}
-
-.kinde-form-field {
-  margin: 10px 0;
-}
-
-.kinde-button {
-  background-color: #4caf50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-        </style>
-
       </head>
       <body>
         <div id="root" data-roast-root="/admin">
