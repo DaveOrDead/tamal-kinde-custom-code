@@ -23,7 +23,10 @@ function Layout({ request }) {
         {getKindeRequiredJS()}
 
         <style nonce={getKindeNonce()}>
-          {`html {
+          {`
+          @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+          
+          html {
             font-size: 100%;
             line-height: 1.3;
           }
@@ -93,7 +96,7 @@ function Layout({ request }) {
             font-weight: bold;
           }
 
-          .form section {
+          .kinde-form-field {
             position: relative;
             margin: 1rem 0;
           }
