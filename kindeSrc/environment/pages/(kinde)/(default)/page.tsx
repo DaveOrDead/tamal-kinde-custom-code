@@ -160,7 +160,7 @@ function Layout({ request }) {
         <header className="header">
           <div className="logo">Chillspace</div>
         </header>
-        <main className="main">
+        <main className="main" data-roast-root="true">
           <div className="container">{getKindeWidget()}</div>
         </main>
         <footer className="footer">
