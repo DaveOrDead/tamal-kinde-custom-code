@@ -11,9 +11,8 @@ import {
 import React from "react";
 import { renderToString } from "react-dom/server.browser";
 
-function Layout(event) {
-  const { pageTitle, heading, description, logoAlt } =
-    event.context.translations;
+function Layout({ context, request }) {
+  const { pageTitle, heading, description, logoAlt } = context.translations;
 
   return (
     <html>
