@@ -11,9 +11,7 @@ import {
 import React from "react";
 import { renderToString } from "react-dom/server.browser";
 
-function Layout({ context, request }) {
-  const { pageTitle, heading, description, logoAlt } = context.translations;
-
+function Layout({ request }) {
   return (
     <html>
       <head>
@@ -163,10 +161,6 @@ function Layout({ context, request }) {
           <div className="logo">Chillspace</div>
         </header>
         <main className="main" data-roast-root="true">
-          <div>
-            <h1>{heading}</h1>
-            <p>{description}</p>
-          </div>
           <div className="container">{getKindeWidget()}</div>
         </main>
         <footer className="footer">
