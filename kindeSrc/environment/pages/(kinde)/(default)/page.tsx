@@ -18,7 +18,7 @@ function Layout({ request }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta robot="noindex, nofollow" />
-        <meta name="csrf-token" content={getKindeCSRF()} />
+        <meta name="csrf-token" content="123abc" />
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}
 
